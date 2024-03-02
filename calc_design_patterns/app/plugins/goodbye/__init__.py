@@ -3,6 +3,6 @@ import logging
 
 class GoodbyeCommand(Command):
 
-    def execute(self):
+    def execute(self, *args):
         logging.info("Goodbye")
         print("Goodbye")
