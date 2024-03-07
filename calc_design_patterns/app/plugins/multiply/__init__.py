@@ -4,6 +4,7 @@ import logging
 class Multiply(Command):
     
     def execute(self, args):
+        
         numbers = args.split()
         if len(numbers) < 2:
             print("Please provide at least two numbers.")
