@@ -18,3 +18,4 @@ class Divide(Command):
             result /= int(num)
         print(f"The quotient is: {result}")
         logging.info(f"The quotient is: {result}")
+        
