@@ -12,4 +12,3 @@ class Subtract(Command):
         result = int(numbers[0]) - sum(map(int, numbers[1:]))
         print(f"The difference is: {result}")
         logging.info(f"The difference is: {result}")
-        
