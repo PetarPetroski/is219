@@ -7,3 +7,4 @@ class Add(Command):
         result = sum(map(int, numbers))
         print(f"The sum is: {result}")
         logging.info(f"The sum is: {result}")
+        
