@@ -16,7 +16,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    working-directory: is219/calc_design_patterns
 
     steps:
     - uses: actions/checkout@v3
